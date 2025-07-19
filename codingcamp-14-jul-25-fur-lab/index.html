@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company</title>
+
+    <!--Link CSS--->
+    <link rel="stylesheet" href="/CSS/style.css">
+
+    <!--Link JS--->
+    <script src="/JS/script.js" defer></script>
+
+</head>
+
+<body> 
+
+    <!--Header Content--->
+<header>
+    <!--Logo--->
+   <div class="wrapper">
+        <div class="logo">
+            <img src="/img/improve max.jpg" alt="Company Logo">
+        </div>
+
+        <!--Navigation--->
+
+        <nav>
+            <a href="#home-page">Home</a>
+            <a href="#our-profile">Our Profile</a>
+            <a href="#message-us">Message Us</a>
+        </nav>
+    </div>
+   </div>
+</header>
+ 
+
+
+    <!--Main Content--->
+<main>
+    <!--Home Content-->
+    <section id="home-page">
+        <h1>Welcome <span id="Welcome-user"> [User] </span> to Our Website</h1>
+        
+        <div>
+            <p>We are glad to have you here. Explore our services and find out how we can assist you.</p>
+            <p>Feel free to reach out to us for any inquiries or support.</p> 
+        </div>
+        
+        <div class="banner-img">
+
+        </div>
+
+    </section>
+   
+<hr/>
+
+    <!--Our Profile Content-->
+    <section id="our-profile">
+    
+        <h2>Our Profile</h2>
+       <article>
+            <p>We are a company dedicated to providing the best services to our customers. Our team is committed to excellence and innovation.</p>
+            <p>Contact us for more information about our services and how we can help you achieve your goals.</p>
+       </article> 
+
+    </section>
+
+<hr/>
+
+    <!--Message Us Content-->
+    <section id="message-us">
+        <form>
+        
+            <h2>Message Us</h2>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" >
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" ></textarea>
+
+            <button onclick="validateForm();"  type="button">Send Message</button>
+        
+        </form>
+
+        <div class="respon" id="message-response">Result:</div>
+    </section>
+       
+
+
+
+
+
+</main>
+
+
+    <!--Footer Content--->
+<footer>
+    <p>&copy; 2025 I&M. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
